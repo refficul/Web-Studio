@@ -588,7 +588,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--white-txt-color);
+  color: var(--color-white);
 }
 
 .footer-form-field {
@@ -978,6 +978,18 @@ body {
 }
 
 /* Examples */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 
 .list-ex-port {
   list-style: none;
